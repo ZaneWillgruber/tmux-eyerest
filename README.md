@@ -75,7 +75,7 @@ Inside the break popup:
   set -g status-interval 1
   ```
 - State is stored in `$TMPDIR/tmux-eyerest-$USER.state` and reset whenever the plugin is sourced (e.g. `tmux source ~/.tmux.conf`).
-- Popups require tmux **3.2+**. Older tmux falls back to `display-message`.
+- Popups require tmux **3.2+**. Older tmux opens the break in a dedicated window (`eye-break`) that auto-closes when the break finishes.
 
 ## License
 
