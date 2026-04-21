@@ -15,7 +15,7 @@ every 20 minutes of screen time, look at something 20 feet away for 20 seconds.
 In `~/.tmux.conf`:
 
 ```tmux
-set -g @plugin 'youruser/tmux-eyerest'
+set -g @plugin 'ZaneWillgruber/tmux-eyerest'
 set -g status-right '#{eyerest} | %H:%M '
 ```
 
@@ -24,7 +24,7 @@ Then hit `prefix + I` to fetch and source.
 ### Manual
 
 ```sh
-git clone https://github.com/youruser/tmux-eyerest ~/.tmux/plugins/tmux-eyerest
+git clone https://github.com/ZaneWillgruber/tmux-eyerest ~/.tmux/plugins/tmux-eyerest
 ```
 
 In `~/.tmux.conf`, after your `status-left` / `status-right` settings:
